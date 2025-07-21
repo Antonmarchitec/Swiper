@@ -1,4 +1,4 @@
-PARA INICIALIZAR GIT Y SUBIR REPOSITORIOS
+# PARA INICIALIZAR GIT Y SUBIR REPOSITORIOS
 *****************************************
 
 Instalar git
@@ -7,28 +7,28 @@ git version
 
 comand//> git init
 
-SUBIR EL PROYECTO COMPLETO
+## SUBIR EL PROYECTO COMPLETO
 comand//> git add .
 
 SUBIR SOLO ARCHIVOS SUELTOS
 comand//> git add index.html
 comand//> git add estilos.css
 
-PARA INDICAR LA ACTUALIZACION EN EL REPOSITORIO
+## PARA INDICAR LA ACTUALIZACION EN EL REPOSITORIO
 comand//> git commit -m "Portafolio_V.3"
 
-PARA INDICAR REMOTAMENTE CON NUESTRO LINK
+## PARA INDICAR REMOTAMENTE CON NUESTRO LINK
 comand//> git remote add origin https://github.com/Antonmarchitec/Antonmarchitec.github.io.git
 
-PARA CARGAR EL CONTENIDO EN EL LINK DE NUESTRO REPOSITORIO
+## PARA CARGAR EL CONTENIDO EN EL LINK DE NUESTRO REPOSITORIO
 comand//> git push -u origin master
 
 
 
-POSIBLES CASOS:
+## POSIBLES CASOS:
 ****************************************************************
 *************************************************************
-ME PIDE USUARIO Y CONTRASEÑA SOLUCION
+## ME PIDE USUARIO Y CONTRASEÑA SOLUCION
 comand//> git config --global user.email "desarrollowebaps@gmail.com"
 comand//> git config --local user.name "Antonio Ponce"
 comand//> git config --list
@@ -36,7 +36,7 @@ comand//> git config --list --show-origin
 *************************************************************
 *************************************************************
 
-REPOSITORIO REPETIDO EJECUTAR EL SIGUIENTE COMANDO PARA SOLUCIONAR
+## REPOSITORIO REPETIDO EJECUTAR EL SIGUIENTE COMANDO PARA SOLUCIONAR
 **************************************************
 (error: remote origin already exists.)
 
@@ -51,13 +51,13 @@ gh-pages
 
 
 
-LINKS UTILIZADOS
-****************
+# LINKS UTILIZADOS
+## ****************
 https://www.youtube.com/watch?v=fHSkaccKfaA
 
 
 
-SISTEMA DE ACTUALIZACION DE VERSIONES GIT
+## SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 *****************************************
 00. git config --global user.name "mi nombre"   (configuramos git en nuestra PC)
 00. git config --global user.email "myemail@example.com"  (EL CORREO DEBE SER EL MISMO QUE EL DE GIBHUB)
@@ -65,7 +65,7 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 00. si se quiere eliminar git de la compu vamos a panel_de_control->cuentas_de_usuario
     administrar_credenciales->credenciales_de_windows->buscamos git y lo quitamos  (para empezar de cero)
 
-# Comandos utiles de GIT
+##Comandos utiles de GIT
 1. git init                         (inicializar)
 2. git add .                        (agregar)
 3. git reset .                      (resetear)
@@ -82,7 +82,7 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 14. git status -s                   (escanea todos los archivos y muestra modificados) 
 
 
-//COMANDOS PARA VER LOS COMMITS EN EL TIEMPO
+##COMANDOS PARA VER LOS COMMITS EN EL TIEMPO
 15. git log --oneline               (Muestra en una línea de todos los commit realizados)
 00. git checkout aca-el-id-commit   (utilizando el ID solo para revisar y ver que habia en ese tiempo)
 00. git checkout colocamos-id-o-ramaOrigen   (utilizando para volver y continuar donde nos quedamos)
@@ -94,13 +94,13 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 
 
 
-//COMANDOS UTILES EXTRAS
+## COMANDOS UTILES EXTRAS
 17. cls                             (limpia la consola)
 18. :q!                             (en caso de que aparezc el VIM)
 
 
 
-//COMANDOS PARA CREAR CARPETAS
+## COMANDOS PARA CREAR CARPETAS
 01. md nombre-carpeta        (crea la carpeta)
 02. dir                      (muestra la carpeta)
 03. md doc-a-mover           (verificar)
@@ -158,24 +158,19 @@ git
 
 
 
+## GIT
 
+CUANDO ESTAMOS REINICIANDO E INSTALANDO DESDE CERO ES IMPORTANTE 
+INGRESAR EL NOMBRE Y CORREO CON EL QUE ESTAMOS CUANDO ESTAMOS REINICIANDO E INSTALANDO DESDE CERO ES IMPORTANTE 
 
-
-
-
-
-
-GIT
-***
-//CUANDO ESTAMOS REINICIANDO E INSTALANDO DESDE CERO ES IMPORTANTE 
-INGRESAR EL NOMBRE Y CORREO CON EL QUE ESTAMOS 
-VINCULANDOS A GITHUB//
+## INGRESAR EL NOMBRE Y CORREO CON EL QUE ESTAMOS
+VINCULANDOS A GITHUBVINCULANDOS A GITHUBVINCULANDOS A GITHUBVINCULANDOS A GITHUB
 
 git config --global user.name "nombre"
 git config --global user.email "correo@gmail.com"
 
 
-//SUBIR EL REPOSITORIO A GITHUB
+## SUBIR EL REPOSITORIO A GITHUB
 (ESTE CODIGO APARECE CUANDO CREAMOS EL REPOSITORIO)//
 
 git remote add origin https://github.com/Antonmarchitec/PR_Prueba.git
@@ -185,7 +180,7 @@ git push -u origin main
 
 
 
-REAPASO GIT
+## REAPASO GIT
 Comandos
 Descargar GIT de la pagina oficial
 > cd Desktop carpeta
