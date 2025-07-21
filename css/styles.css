@@ -1,0 +1,42 @@
+:root {
+    --swiper-theme-color:rgb(235, 38, 38);
+    --colorRed:red;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  width: 90%;
+  height: auto;
+  background: grey;
+  margin: auto;
+}
+
+/*NO MODIFICAR ESTE FRAGMENTO*/
+.swiper {
+  background: transparent;
+}
+
+/*NO MODIFICAR ESTE FRAGMENTO*/
+.swiper-wrapper{
+  background: transparent;
+}
+
+/*NO MODIFICAR ESTE FRAGMENTO*/
+.swiper-slide{
+  background: transparent;
+}
+
+.cont_imagen{
+  width: 100%;
+  height: 400px;
+}
+
+
+
